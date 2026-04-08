@@ -1,15 +1,17 @@
 {
   "name": "mahmoud-backend-utils",
   "version": "1.0.1",
-  "description": "",
-  "main": "index.js",
+  "description": "Unified API response and error handling utils for Express & NestJS",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
+    "prepublishOnly": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["express", "nestjs", "api", "utils", "typescript"],
+  "author": "Mahmoud Tarek",
+  "license": "MIT",
   "type": "commonjs",
   "dependencies": {
     "@nestjs/common": "^11.1.18",
@@ -21,12 +23,16 @@
     "@types/node": "^25.5.2",
     "ts-node": "^10.9.2"
   },
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/mahmoud-t3rek/mahmoud-t3rek-backend-utils"
+    "url": "https://github.com/mahmoud-t3rek/mahmoud-t3rek-backend-utils.git"
   },
   "bugs": {
-    "url": "https://github.com/mahmoud-t3rek/backend-utils/issues"
+    "url": "https://github.com/mahmoud-t3rek/mahmoud-t3rek-backend-utils/issues"
   },
-  "homepage": "https://github.com/mahmoud-t3rek/backend-utils#readme"
+  "homepage": "https://github.com/mahmoud-t3rek/mahmoud-t3rek-backend-utils#readme"
 }
