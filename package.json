@@ -1,6 +1,6 @@
 {
   "name": "mahmoud-backend-utils-new",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Unified API response and error handling utils for Express & NestJS",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
