@@ -1,8 +1,8 @@
-# 🚀 @mahmoud/backend-utils
+#  @mahmoud/backend-utils
 
 ---
 
-## 📦 Installation
+## Installation
 
 ```bash
 npm install mahmoud-backend-utils
@@ -10,21 +10,21 @@ npm install mahmoud-backend-utils
 
 ---
 
-## ✨ Features
+##  Features
 
-* 🎯 Unified API response format
-* ⚡ Clean and reusable error handling
-* 🧩 Works with Express & NestJS
-* 🔒 Custom AppError class
-* 🔁 Async handler for Express
-* 🧱 Exception filter for NestJS
-* 💯 Full TypeScript support
+* Unified API response format
+* Clean and reusable error handling
+* Works with Express & NestJS
+* Custom AppError class
+* Async handler for Express
+* Exception filter for NestJS
+* Full TypeScript support
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
-### ✅ Success Response
+# Success Response
 
 ```ts
 import { success } from 'mahmoud-backend-utils';
@@ -46,7 +46,7 @@ return success({ id: 1, name: 'Mahmoud' }, 'User fetched');
 
 ---
 
-### ❌ Error Response
+## Error Response
 
 ```ts
 import { fail } from 'mahmoud-backend-utils';
@@ -56,7 +56,7 @@ return fail('Something went wrong', 500);
 
 ---
 
-## ⚠️ AppError
+# AppError
 
 ```ts
 import { AppError } from 'mahmoud-backend-utils';
@@ -66,7 +66,7 @@ throw new AppError('User not found', 404);
 
 ---
 
-## 🧪 Express Example
+## Express Example
 
 ```ts
 import express from 'express';
@@ -91,7 +91,7 @@ app.get(
 
 ---
 
-## 🧱 NestJS Example
+##  NestJS Example
 
 ```ts
 import { Controller, Get } from '@nestjs/common';
@@ -108,27 +108,27 @@ export class UserController {
 
 ---
 
-## 📚 API
+# 📚 API
 
-### `success<T>(data, message?, statusCode?)`
+## `success<T>(data, message?, statusCode?)`
 
 Returns a standardized success response.
 
 ---
 
-### `fail(message?, statusCode?, data?)`
+## `fail(message?, statusCode?, data?)`
 
 Returns a standardized error response.
 
 ---
 
-### `AppError`
+## `AppError`
 
 Custom error class with status code support.
 
 ---
 
-### `asyncHandler(fn)`
+## `asyncHandler(fn)`
 
 Handles async errors automatically in Express.
 
@@ -149,13 +149,13 @@ NestJS global exception filter for handling `AppError`.
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 Maintained by **Mahmoud Tarek**.
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Currently, this project is maintained by a single contributor.
 
