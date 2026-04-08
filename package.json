@@ -1,10 +1,10 @@
 {
   "name": "mahmoud-backend-utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
-     "build": "tsc",
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -20,12 +20,13 @@
     "@types/express": "^5.0.6",
     "@types/node": "^25.5.2",
     "ts-node": "^10.9.2"
-  },"repository": {
-  "type": "git",
-  "url": "https://github.com/mahmoud-t3rek/mahmoud-t3rek-backend-utils"
-},
-"bugs": {
-  "url": "https://github.com/mahmoud-t3rek/backend-utils/issues"
-},
-"homepage": "https://github.com/mahmoud-t3rek/backend-utils#readme"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mahmoud-t3rek/mahmoud-t3rek-backend-utils"
+  },
+  "bugs": {
+    "url": "https://github.com/mahmoud-t3rek/backend-utils/issues"
+  },
+  "homepage": "https://github.com/mahmoud-t3rek/backend-utils#readme"
 }
