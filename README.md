@@ -106,56 +106,13 @@ export class UserController {
 }
 ```
 
----
-
-# 📚 API
-
-## `success<T>(data, message?, statusCode?)`
-
-Returns a standardized success response.
-
----
-
-## `fail(message?, statusCode?, data?)`
-
-Returns a standardized error response.
-
----
-
-## `AppError`
-
-Custom error class with status code support.
-
----
-
-## `asyncHandler(fn)`
-
-Handles async errors automatically in Express.
-
----
-
-### `AppErrorFilter`
-
-NestJS global exception filter for handling `AppError`.
-
----
-
-## 🛠 Roadmap
-
-* [x] Add logging system
-* [ ] Add error codes
-* [ ] Add validation helpers
-* [ ] Add middleware presets
-
----
-
 ##  Author
 
 Maintained by **Mahmoud Tarek**.
 
 ---
 
-## Contributing
+##  Contributing
 
 Currently, this project is maintained by a single contributor.
 
